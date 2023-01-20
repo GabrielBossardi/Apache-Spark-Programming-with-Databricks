@@ -10,6 +10,8 @@
 # MAGIC %md
 # MAGIC # Apache Spark Programming with Databricks
 # MAGIC ## Course Agenda
+# MAGIC 
+# MAGIC Taught over 4 half-days or 2 full-days.
 
 # COMMAND ----------
 
@@ -26,12 +28,15 @@
 # MAGIC * [ASP 2.2 - Reader & Writer]($./ASP 2 - Spark Core/ASP 2.2 - Reader & Writer)
 # MAGIC * [ASP 2.2L - Ingesting Data Lab]($./ASP 2 - Spark Core/ASP 2.2L - Ingesting Data Lab)
 # MAGIC * [ASP 2.3 - DataFrame & Column]($./ASP 2 - Spark Core/ASP 2.3 - DataFrame & Column)
-# MAGIC * [ASP 2.3L - Purchase Revenues Lab]($./ASP 2 - Spark Core/ASP 2.3L - Purchase Revenues Lab)
 
 # COMMAND ----------
 
 # MAGIC %md
 # MAGIC # Day 2
+# MAGIC 
+# MAGIC ## Spark Core (Continued)
+# MAGIC * [ASP 2.3L - Purchase Revenues Lab]($./ASP 2 - Spark Core/ASP 2.3L - Purchase Revenues Lab)
+# MAGIC 
 # MAGIC ## Functions
 # MAGIC * [ASP 3.1 - Aggregation]($./ASP 3 - Functions/ASP 3.1 - Aggregation)
 # MAGIC * [ASP 3.1L - Revenue by Traffic Lab]($./ASP 3 - Functions/ASP 3.1L - Revenue by Traffic Lab)
@@ -40,15 +45,17 @@
 # MAGIC * [ASP 3.3 - Complex Types]($./ASP 3 - Functions/ASP 3.3 - Complex Types)
 # MAGIC * [ASP 3.3L - Users]($./ASP 3 - Functions/ASP 3.3L - Users)
 # MAGIC * [ASP 3.4 - Additional Functions]($./ASP 3 - Functions/ASP 3.4 - Additional Functions)
-# MAGIC * [ASP 3.4L - Abandoned Carts Lab]($./ASP 3 - Functions/ASP 3.4L - Abandoned Carts Lab)
-# MAGIC * [ASP 3.5 - UDFs]($./ASP 3 - Functions/ASP 3.5 - UDFs)
-# MAGIC * [ASP 3.5L - Sort Day Lab]($./ASP 3 - Functions/ASP 3.5L - Sort Day Lab)
 # MAGIC   
 
 # COMMAND ----------
 
 # MAGIC %md
 # MAGIC # Day 3
+# MAGIC ## Functions (Continued)
+# MAGIC * [ASP 3.4L - Abandoned Carts Lab]($./ASP 3 - Functions/ASP 3.4L - Abandoned Carts Lab)
+# MAGIC * [ASP 3.5 - UDFs]($./ASP 3 - Functions/ASP 3.5 - UDFs)
+# MAGIC * [ASP 3.5L - Sort Day Lab]($./ASP 3 - Functions/ASP 3.5L - Sort Day Lab)
+# MAGIC 
 # MAGIC ## Performance
 # MAGIC * [ASP 4.1 - Query Optimization]($./ASP 4 - Performance/ASP 4.1 - Query Optimization)
 # MAGIC * [ASP 4.2 - Partitioning]($./ASP 4 - Performance/ASP 4.2 - Partitioning)
@@ -72,7 +79,7 @@
 # COMMAND ----------
 
 # MAGIC %md-sandbox
-# MAGIC &copy; 2022 Databricks, Inc. All rights reserved.<br/>
+# MAGIC &copy; 2023 Databricks, Inc. All rights reserved.<br/>
 # MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="https://www.apache.org/">Apache Software Foundation</a>.<br/>
 # MAGIC <br/>
 # MAGIC <a href="https://databricks.com/privacy-policy">Privacy Policy</a> | <a href="https://databricks.com/terms-of-use">Terms of Use</a> | <a href="https://help.databricks.com/">Support</a>

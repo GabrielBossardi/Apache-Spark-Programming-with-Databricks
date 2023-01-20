@@ -130,7 +130,7 @@ displayHTML(html)
 # MAGIC | Horizontal Rule | `---` |
 # MAGIC | Code            | ``` `code` ``` |
 # MAGIC | Link            | `[text](https://www.example.com)` |
-# MAGIC | Image           | `[alt text](image.jpg)`|
+# MAGIC | Image           | `![alt text](image.jpg)`|
 # MAGIC | Ordered List    | `1. First items` <br> `2. Second Item` <br> `3. Third Item` |
 # MAGIC | Unordered List  | `- First items` <br> `- Second Item` <br> `- Third Item` |
 # MAGIC | Code Block      | ```` ``` ```` <br> `code block` <br> ```` ``` ````|
@@ -265,7 +265,7 @@ spark.conf.set("whatever.events", DA.paths.events)
 
 # COMMAND ----------
 
-print(f"Database Name: {DA.db_name}")
+print(f"Database Name: {DA.schema_name}")
 
 # COMMAND ----------
 
@@ -274,7 +274,7 @@ print(f"Database Name: {DA.db_name}")
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC SHOW TABLES IN ${DA.db_name}
+# MAGIC SHOW TABLES IN ${DA.schema_name}
 
 # COMMAND ----------
 
@@ -377,7 +377,7 @@ DA.cleanup()
 # COMMAND ----------
 
 # MAGIC %md-sandbox
-# MAGIC &copy; 2022 Databricks, Inc. All rights reserved.<br/>
+# MAGIC &copy; 2023 Databricks, Inc. All rights reserved.<br/>
 # MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="https://www.apache.org/">Apache Software Foundation</a>.<br/>
 # MAGIC <br/>
 # MAGIC <a href="https://databricks.com/privacy-policy">Privacy Policy</a> | <a href="https://databricks.com/terms-of-use">Terms of Use</a> | <a href="https://help.databricks.com/">Support</a>
